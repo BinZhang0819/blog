@@ -63,13 +63,13 @@ smooth_scroll: # 平滑滚动效果
 # Header
 #---------------------------
 navbar:
-  blog_title:  # 导航栏左侧的标题，为空则按 hexo config.title 显示
+  blog_title: 慢時光 # 导航栏左侧的标题，为空则按 hexo config.title 显示
   menu:  # 可自行增减，若想减去某个入口，可以将值留空
-    Home: /
-    Archives: /archives/
-    Categories: /categories/
-    Tags: /tags/
-    About: /about/
+    慢時光: /
+    小記: /archives/
+    類別: /categories/
+    標籤: /tags/
+    關於: /about/
 
 search: # 搜索栏
   enable: true
@@ -254,7 +254,7 @@ about:  # 以下仅为页面顶部的基本信息，更多内容请在 ./pages/a
   banner_img: /img/default.png
   banner_img_height: 80  # available: 0 - 100
   avatar: /img/avatar.png # 头像
-  name: myname
+  name: Zhang Bin
   introduce: info / info / info # 支持 HTML
   icons: # 更多图标可从 https://fontawesome.com/icons 查找，并以 "图标名: url" 的格式添加在下方
     "fab fa-github": https://github.com
