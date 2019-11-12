@@ -26,7 +26,7 @@ categories:
 
 描述: 将两个或更多对象的内容合并到第一个对象。
 
-[![](/img/jq_extend_1.png)](https://gitalk.github.io/)
+[![](/img/jq_extend_1.png)](https://ben-zhangbin.cn/)
 
 解释：当我们提供两个或多个对象给$.extend()，对象的所有属性都添加到目标对象（target参数）。
 
