@@ -5,7 +5,7 @@ date:        2019/11/12 16:00:00
 index_img: /img/post-index-111203.jpg
 banner_img: /img/post-index-111203.jpg
 tags: 
-    - 技术
+    - 前端
 categories: 
     - 技术
 ---
