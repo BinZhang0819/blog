@@ -8,7 +8,10 @@ var banner_img_height = page.banner_img_height || theme.index.banner_img_height
 %>
 
 <%- partial('_partial/head') %>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 <body>
   <header style="height: <%- banner_img_height %>vh;">
     <%- partial('_partial/nav') %>
@@ -110,5 +113,14 @@ var banner_img_height = page.banner_img_height || theme.index.banner_img_height
 
   <%- partial('_partial/footer', { data: { 'subtitle': subtitle } }) %>
 
+  <div id="music-wrap">
+    <meting-js
+    server="netease"
+    type="song"
+    autoplay="true"
+    loop="one"
+    id="1383927243">
+</meting-js>
+  </div>
 </body>
 </html>
