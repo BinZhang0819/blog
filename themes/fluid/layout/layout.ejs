@@ -12,6 +12,18 @@ var banner_img_height = page.banner_img_height || theme.index.banner_img_height
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <!-- require MetingJS -->
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<style>
+  #music-wrap {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+  }
+  .aplayer {
+    box-shadow: 0 0 30px 0 rgba(255,255,255,.1), 0 0 30px 0 rgba(255,255,255,.2)!important;
+  }
+
+</style>
 <body>
   <header style="height: <%- banner_img_height %>vh;">
     <%- partial('_partial/nav') %>
