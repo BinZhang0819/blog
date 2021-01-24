@@ -95,4 +95,6 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: "https://github.com/BinZhang0819/BinZhang0819.github.io" #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: gh-pages
