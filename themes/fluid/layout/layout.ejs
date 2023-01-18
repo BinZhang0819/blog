@@ -44,7 +44,7 @@ var banner_img_height = page.banner_img_height || theme.index.banner_img_height
               <br>
               <% if (theme.post.meta.date.enable) { %>
                 <p class="mt-3">
-                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+                  <i class="fa fa-calendar-alt" aria-hidden="true"></i>&nbsp;
                   <%- full_date(page.date, theme.post.meta.date.format) %>
                 </p>
               <% } %>
@@ -80,7 +80,7 @@ var banner_img_height = page.banner_img_height || theme.index.banner_img_height
 
           <% if (theme.scroll_down_arrow.enable && theme.scroll_down_arrow.banner_height_limit <= banner_img_height) { %>
             <div class="scroll-down-bar">
-              <i class="fas fa-angle-down scroll-down-arrow"></i>
+              <i class="fa fa-angle-down scroll-down-arrow"></i>
             </div>
           <% } %>
         </div>

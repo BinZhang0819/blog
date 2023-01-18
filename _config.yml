@@ -74,7 +74,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+updated_option: false
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -97,4 +97,4 @@ theme: fluid
 deploy:
   type: git
   repo: "https://github.com/BinZhang0819/BinZhang0819.github.io" #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: gh-pages
+  branch: master
