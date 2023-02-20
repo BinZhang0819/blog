@@ -14,19 +14,20 @@ categories:
 
 # scp 的使用
 ## 传输本地文件到服务器
-``` bash
+```bash
 scp 文件名 用户名@服务器ip:目标路径
 scp /file-path/ root@server-ip:/file-path/
 ```
 ## 传输本地文件夹到服务器
-``` bash
+```bash
 scp -r 文件夹目录 用户名@服务器ip:目标路径
 scp -r /path/folder root@server-ip:/path/
 ```
 ## 下载服务器文件到本地
-
+```
 scp 用户名@服务器ip:文件路径 目标路径
 scp root@server-ip:/file-path/ /file-path/
+```
 
 ## 下载服务器文件夹到本地
 ```bash
