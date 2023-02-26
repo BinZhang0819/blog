@@ -5,7 +5,7 @@ date: 2023年1月31日16:16:03
 index_img: /img/ts/title.png
 banner_img: /img/ts/title.png
 tags: 
-    - 工具
+    - 知识
 categories: 
     - 技术
 ---
