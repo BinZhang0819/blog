@@ -4,16 +4,16 @@
 
 # Site
 title: 慢時光
-subtitle: 'My Notes'
-description: 'My Notes'
-keywords:
+subtitle: 空有人間自由身，卻非人間自由人
+description: 空有人間自由身，卻非人間自由人
+keywords: 開發 程序員 前端
 author: Zhang Bin
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.ben-zhangbin.cn
+url: https://www.ben-zhangbin.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

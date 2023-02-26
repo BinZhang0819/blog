@@ -20,7 +20,7 @@ categories:
 
 ## 2.全局代码的执行过程
 这是一段全局代码
-```javascrupt
+```javascript
 var name="why";
 console.log(num1);
 var num1=20;
