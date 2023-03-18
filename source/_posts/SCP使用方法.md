@@ -2,8 +2,8 @@
 layout: post
 title:  SCP使用方法
 date: 2023年2月17日 20点08分
-index_img: /img/post-index-111202.jpg
-banner_img: /img/post-index-111202.jpg
+index_img: https://ben-zhangbin.gitee.io/website/img/post-index-111202.jpg
+banner_img: https://ben-zhangbin.gitee.io/website/img/post-index-111202.jpg
 tags: 
     - 工具
 categories: 

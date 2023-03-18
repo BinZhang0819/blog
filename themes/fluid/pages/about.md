@@ -9,6 +9,6 @@
     <font face="楷体" size=6 color=#34a853>差不多</font>
 </center>
 <center>
-    <img src="/img/about-111301.jpg"/>
+    <img src="https://ben-zhangbin.gitee.io/website/img/about-111301.jpg"/>
 </center>
 

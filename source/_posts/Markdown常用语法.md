@@ -2,8 +2,8 @@
 layout: post
 title:      Markdown常用语法
 date:        2022年12月26日12:20:53
-index_img: /img/post-index-markdown-home.jpg
-banner_img: /img/post-index-markdown-home.jpg
+index_img: https://ben-zhangbin.gitee.io/website/img/post-index-markdown-home.jpg
+banner_img: https://ben-zhangbin.gitee.io/website/img/post-index-markdown-home.jpg
 tags: 
     - 工具
 categories: 

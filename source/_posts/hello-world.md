@@ -2,8 +2,8 @@
 layout: post
 title:      Hello World
 date:        2019/11/12 14:00:00
-index_img: /img/post-index-111202.jpg
-banner_img: /img/post-index-111202.jpg
+index_img: https://ben-zhangbin.gitee.io/website/img/post-index-111202.jpg
+banner_img: https://ben-zhangbin.gitee.io/website/img/post-index-111202.jpg
 tags: 
     - 技术
 categories: 

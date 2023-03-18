@@ -2,8 +2,8 @@
 layout: post
 title:      Git指令整理
 date:        2019/11/12 14:00:00
-index_img: /img/post-index-111201.jpg
-banner_img: /img/post-index-111201.jpg
+index_img: https://ben-zhangbin.gitee.io/website/img/post-index-111201.jpg
+banner_img: https://ben-zhangbin.gitee.io/website/img/post-index-111201.jpg
 tags: 
     - 工具
 categories: 

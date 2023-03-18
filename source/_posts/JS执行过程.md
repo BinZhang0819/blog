@@ -2,8 +2,8 @@
 layout: post
 title:  JS执行过程
 date: 2023年2月26日16:24:35
-index_img: /img/post-index-111202.jpg
-banner_img: /img/post-index-111202.jpg
+index_img: https://ben-zhangbin.gitee.io/website/img/post-index-111202.jpg
+banner_img: https://ben-zhangbin.gitee.io/website/img/post-index-111202.jpg
 tags: 
     - 知识
 categories: 
@@ -139,7 +139,7 @@ function foo(){
     * 执行代码
 
 执行第8行代码的时候,输出`name`的值，会先从当前的`VO`中查找`name`，发现不存在，去父级作用域`(foo)`的`VO`中查找，发现还是不存在，就是去父级作用域`(foo)`的父级作用域`(GO)`中去查找,发现有`name`的值，是`"why"`，所以将其输出`"why"`。
-![img](/img/runtime/27730857-052be4cb21762fea.png)
+![img](https://ben-zhangbin.gitee.io/website/img/runtime/27730857-052be4cb21762fea.png)
 
 ## 6. 函数调用函数的执行过程
 ```javascript
@@ -157,7 +157,7 @@ bar();
 打印的结果是 `hello Global`
 * 函数的作用域是在编译的时候就已经确定了。
 * 函数的作用域跟它定义的位置有关系，跟调用的位置是没有关系的。
-![img](/img/runtime/27730857-048ebee62dada000.png)
+![img](https://ben-zhangbin.gitee.io/website/img/runtime/27730857-048ebee62dada000.png)
 
 ## 7. 变量环境（Variable Enviroment）和环境记录（Environment Record）
 **上面的规范是基于早期ECMA的版本规范：**
@@ -172,4 +172,4 @@ bar();
 通过上面的变化，我们可以知道，VO变为变量环境(VE)。
 
 ## 8. 总结
-![img](/img/runtime/27730857-222a95c7fd81823c.png)
+![img](https://ben-zhangbin.gitee.io/website/img/runtime/27730857-222a95c7fd81823c.png)

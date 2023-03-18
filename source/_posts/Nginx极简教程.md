@@ -2,8 +2,8 @@
 layout: post
 title:  Nginx极简教程
 date: 2023年1月18日09:41:27
-index_img: /img/nginx/title.jpg
-banner_img: /img/nginx/title.jpg
+index_img: https://ben-zhangbin.gitee.io/website/img/nginx/title.jpg
+banner_img: https://ben-zhangbin.gitee.io/website/img/nginx/title.jpg
 tags: 
     - 工具
 categories: 

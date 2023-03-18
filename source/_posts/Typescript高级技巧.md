@@ -2,8 +2,8 @@
 layout: post
 title:  Typescript 高级技巧
 date: 2023年1月31日16:16:03
-index_img: /img/ts/title.png
-banner_img: /img/ts/title.png
+index_img: https://ben-zhangbin.gitee.io/website/img/ts/title.png
+banner_img: https://ben-zhangbin.gitee.io/website/img/ts/title.png
 tags: 
     - 知识
 categories: 

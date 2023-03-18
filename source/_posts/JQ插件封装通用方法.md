@@ -2,8 +2,8 @@
 layout: post
 title:      JQ插件封装通用方法
 date:        2019/11/12 16:00:00
-index_img: /img/post-index-111203.jpg
-banner_img: /img/post-index-111203.jpg
+index_img: https://ben-zhangbin.gitee.io/website/img/post-index-111203.jpg
+banner_img: https://ben-zhangbin.gitee.io/website/img/post-index-111203.jpg
 tags: 
     - 前端
 categories: 
@@ -26,7 +26,7 @@ categories:
 
 描述: 将两个或更多对象的内容合并到第一个对象。
 
-[![](/img/jq_extend_1.png)](https://ben-zhangbin.cn/)
+[![](https://ben-zhangbin.gitee.io/website/img/jq_extend_1.png)](https://ben-zhangbin.cn/)
 
 解释：当我们提供两个或多个对象给$.extend()，对象的所有属性都添加到目标对象（target参数）。
 
